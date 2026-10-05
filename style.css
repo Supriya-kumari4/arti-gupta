@@ -221,21 +221,26 @@ button {
   place-items: center;
 }
 
-/* Changed only for the hero photo so the complete image is visible */
 .portrait-frame {
-  width: min(390px, 78%);
-  border-radius: 210px 210px 28px 28px;
+  width: min(460px, 90%);
+  height: 600px;
+  border-radius: 230px 230px 30px 30px;
   background: #dce6df;
   position: relative;
   overflow: hidden;
   box-shadow: 20px 25px 60px rgba(53, 77, 69, .13);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portrait-frame img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   object-fit: contain;
+  object-position: center;
 }
 
 .portrait-placeholder {
@@ -1074,7 +1079,8 @@ textarea:focus {
   }
 
   .portrait-frame {
-    width: 78%;
+  width: 88%;
+  height: 500px;
   }
 
   .floating-card {
