@@ -59,7 +59,7 @@ ${message ? `Note: ${message}` : ""}
 
 Please let me know if this slot is available. Thank you.`;
 
-  window.open("https://wa.me/918460377437?text=" + encodeURIComponent(text), "_blank");
+  window.open("https://wa.me/919826167447?text=" + encodeURIComponent(text), "_blank");
   closeBooking();
 });
 
